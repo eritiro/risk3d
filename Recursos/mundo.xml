@@ -1,0 +1,213 @@
+﻿<?xml version="1.0"?>
+<mapa ruta_textura="mundo.bmp">
+	<continentes>
+		<continente id="1" nombre="America del Sur" bonus="10">
+			<territorios>
+				<territorio nombre="Argentina" id="1" x="341" y="361">
+				</territorio>
+				<territorio nombre="Uruguay" id="2" x="356" y="346">
+				</territorio>
+				<territorio nombre="Chile" id="3" x="306" y="368">
+				</territorio>
+				<territorio nombre="Peru" id="4" x="320" y="319">
+				</territorio>
+				<territorio nombre="Brasil" id="5" x="389" y="298">
+				</territorio>
+				<territorio nombre="Colombia" id="6" x="296" y="256">
+				</territorio>
+			</territorios>
+		</continente>
+		<continente id="2" nombre="America del Norte" bonus="6">
+			<territorios>
+				<territorio nombre="Mejico" id="7" x="221" y="181">
+				</territorio>
+				<territorio nombre="Estados Unidos" id="8" x="216" y="134">
+				</territorio>
+				<territorio nombre="Canada" id="9" x="214" y="76">
+				</territorio>
+			</territorios>
+		</continente>
+		<continente id="3" nombre="Africa" bonus="7">
+			<territorios>
+				<territorio nombre="Africa del Sur" id="10" x="584" y="342">
+				</territorio>
+				<territorio nombre="Nigeria" id="12" x="489" y="186">
+				</territorio>
+			</territorios>
+		</continente>
+		<continente id="4" nombre="Europa" bonus="9">
+			<territorios>
+				<territorio nombre="Espania" id="13" x="499" y="138">
+				</territorio>
+				<territorio nombre="Italia" id="14" x="550" y="137">
+				</territorio>
+				<territorio nombre="Francia" id="15" x="521" y="126">
+				</territorio>
+				<territorio nombre="Alemania" id="16" x="541" y="114">
+				</territorio>
+				<territorio nombre="Gran Bretania" id="17" x="499" y="104">
+				</territorio>
+			</territorios>
+		</continente>
+		<continente id="5" nombre="Asia" bonus="12">
+			<territorios>
+				<territorio nombre="Irak" id="11" x="640" y="187">
+				</territorio>
+				<territorio nombre="Rusia" id="18" x="575" y="109">
+				</territorio>
+			</territorios>
+		</continente>
+		<continente id="6" nombre="Oceania" bonus="1">
+			<territorios>
+				<territorio nombre="Australia" id="19" x="876" y="330">
+				</territorio>
+			</territorios>
+		</continente>
+	</continentes>
+	<adyacencias>
+		<adyacencia id1="1" id2="3">
+		</adyacencia>
+		<adyacencia id1="1" id2="2">
+		</adyacencia>
+		<adyacencia id1="2" id2="1">
+		</adyacencia>
+		<adyacencia id1="2" id2="5">
+		</adyacencia>
+		<adyacencia id1="2" id2="4">
+		</adyacencia>
+		<adyacencia id1="3" id2="1">
+		</adyacencia>
+		<adyacencia id1="3" id2="4">
+		</adyacencia>
+		<adyacencia id1="4" id2="2">
+		</adyacencia>
+		<adyacencia id1="4" id2="3">
+		</adyacencia>
+		<adyacencia id1="4" id2="6">
+		</adyacencia>
+		<adyacencia id1="4" id2="5">
+		</adyacencia>
+		<adyacencia id1="5" id2="2">
+		</adyacencia>
+		<adyacencia id1="5" id2="4">
+		</adyacencia>
+		<adyacencia id1="5" id2="6">
+		</adyacencia>
+		<adyacencia id1="6" id2="4">
+		</adyacencia>
+		<adyacencia id1="6" id2="7">
+		</adyacencia>
+		<adyacencia id1="6" id2="5">
+		</adyacencia>
+		<adyacencia id1="7" id2="6">
+		</adyacencia>
+		<adyacencia id1="7" id2="8">
+		</adyacencia>
+		<adyacencia id1="8" id2="7">
+		</adyacencia>
+		<adyacencia id1="8" id2="9">
+		</adyacencia>
+		<adyacencia id1="8" id2="17">
+		</adyacencia>
+		<adyacencia id1="9" id2="8">
+		</adyacencia>
+		<adyacencia id1="10" id2="12">
+		</adyacencia>
+		<adyacencia id1="10" id2="11">
+		</adyacencia>
+		<adyacencia id1="12" id2="13">
+		</adyacencia>
+		<adyacencia id1="12" id2="11">
+		</adyacencia>
+		<adyacencia id1="12" id2="10">
+		</adyacencia>
+		<adyacencia id1="13" id2="17">
+		</adyacencia>
+		<adyacencia id1="13" id2="15">
+		</adyacencia>
+		<adyacencia id1="13" id2="12">
+		</adyacencia>
+		<adyacencia id1="14" id2="15">
+		</adyacencia>
+		<adyacencia id1="14" id2="16">
+		</adyacencia>
+		<adyacencia id1="14" id2="18">
+		</adyacencia>
+		<adyacencia id1="15" id2="17">
+		</adyacencia>
+		<adyacencia id1="15" id2="13">
+		</adyacencia>
+		<adyacencia id1="15" id2="16">
+		</adyacencia>
+		<adyacencia id1="15" id2="14">
+		</adyacencia>
+		<adyacencia id1="16" id2="17">
+		</adyacencia>
+		<adyacencia id1="16" id2="15">
+		</adyacencia>
+		<adyacencia id1="16" id2="14">
+		</adyacencia>
+		<adyacencia id1="16" id2="18">
+		</adyacencia>
+		<adyacencia id1="17" id2="8">
+		</adyacencia>
+		<adyacencia id1="17" id2="15">
+		</adyacencia>
+		<adyacencia id1="17" id2="13">
+		</adyacencia>
+		<adyacencia id1="17" id2="16">
+		</adyacencia>
+		<adyacencia id1="11" id2="18">
+		</adyacencia>
+		<adyacencia id1="11" id2="12">
+		</adyacencia>
+		<adyacencia id1="11" id2="10">
+		</adyacencia>
+		<adyacencia id1="11" id2="19">
+		</adyacencia>
+		<adyacencia id1="18" id2="16">
+		</adyacencia>
+		<adyacencia id1="18" id2="14">
+		</adyacencia>
+		<adyacencia id1="18" id2="11">
+		</adyacencia>
+		<adyacencia id1="19" id2="11">
+		</adyacencia>
+	</adyacencias>
+	<requisitos>
+		<requisito id="1">
+			<continentes>
+				<continente id="1" cantidad="6">
+				</continente>
+				<continente id="2" cantidad="3">
+				</continente>
+				<continente id="3" cantidad="2">
+				</continente>
+			</continentes>
+		</requisito>
+		<requisito id="2">
+			<continentes>
+				<continente id="1" cantidad="1">
+				</continente>
+				<continente id="2" cantidad="2">
+				</continente>
+				<continente id="4" cantidad="1">
+				</continente>
+			</continentes>
+		</requisito>
+		<requisito id="3">
+			<continentes>
+				<continente id="2" cantidad="1">
+				</continente>
+				<continente id="3" cantidad="2">
+				</continente>
+				<continente id="4" cantidad="3">
+				</continente>
+				<continente id="5" cantidad="2">
+				</continente>
+				<continente id="6" cantidad="1">
+				</continente>
+			</continentes>
+		</requisito>
+	</requisitos>
+</mapa>

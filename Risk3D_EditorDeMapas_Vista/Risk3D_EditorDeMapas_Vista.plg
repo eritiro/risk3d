@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Risk3D_EditorDeMapas_Vista - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Mariano\CONFIG~1\Temp\RSPF.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\Risk3D_EditorDeMapas_Controlador" /I "..\Risk3D_MVC" /I "..\Risk3D_Modelo" /I "..\Risk3D_GTK_Comun" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Risk3D_EditorDeMapas_Vista.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\SVNTPFinal\Risk3D_EditorDeMapas_Vista\ventana_exploracion_archivos.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Mariano\CONFIG~1\Temp\RSPF.tmp" 
+Creating temporary file "C:\DOCUME~1\Mariano\CONFIG~1\Temp\RSP10.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib glib-2.0.lib gobject-2.0.lib gthread-2.0.lib gdk-win32-2.0.lib gdk_pixbuf-2.0.lib gtk-win32-2.0.lib atk-1.0.lib pango-1.0.lib /nologo /entry:"mainCRTStartup" /subsystem:console /incremental:yes /pdb:"Debug/Risk3D_EditorDeMapas_Vista.pdb" /debug /machine:I386 /out:"Debug/Risk3D_EditorDeMapas_Vista.exe" /pdbtype:sept 
+.\Debug\area_de_edicion.obj
+.\Debug\barra_de_estado.obj
+.\Debug\menu_ventana_principal.obj
+.\Debug\ventana_principal.obj
+.\Debug\ventana_pregunta_si_no.obj
+.\Debug\ventana_exploracion_archivos.obj
+.\Debug\ventana_administracion_objetivos.obj
+.\Debug\ventana_edicion_objetivo.obj
+.\Debug\ventana_crear_continente.obj
+.\Debug\ventana_edicion_territorio.obj
+.\Debug\ventana_eliminar_continente.obj
+.\Debug\ventana_modificar_continente.obj
+.\Debug\textura.obj
+.\Debug\icono_territorio.obj
+.\Debug\icono_territorio_activo.obj
+.\Debug\icono_territorio_adyacente.obj
+.\Debug\icono_territorio_comun.obj
+.\Debug\main.obj
+\SVNTPFinal\Risk3D_EditorDeMapas_Controlador\Debug\Risk3D_EditorDeMapas_Controlador.lib
+\SVNTPFinal\Risk3D_GTK_Comun\Debug\Risk3D_GTK_Comun.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\Mariano\CONFIG~1\Temp\RSP10.tmp"
+<h3>Output Window</h3>
+Compiling...
+ventana_exploracion_archivos.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Risk3D_EditorDeMapas_Vista.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

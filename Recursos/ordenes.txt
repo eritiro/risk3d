@@ -1,0 +1,18 @@
+10
+<orden tipo="Agregar Jugador" nombre="Emiliano" color="2" creador="1"/>
+20
+<orden tipo="Agregar Jugador" nombre="Mariano" color="3" creador="0"/>
+30
+<orden tipo="Agregar Jugador" nombre="Laura" color="1" creador="0"/>
+10
+<orden tipo="Comenzar Juego" />
+10
+<orden tipo="Reforzar Territorio" territorio="1" ejercitos="4"/>
+10
+<orden tipo="Reforzar Territorio" territorio="3" ejercitos="4"/>
+10
+<orden tipo="Reforzar Territorio" territorio="5" ejercitos="4"/>
+10
+<orden tipo="Reforzar Territorio" territorio="7" ejercitos="4"/>
+10
+<orden tipo="Terminar Turno"/>
